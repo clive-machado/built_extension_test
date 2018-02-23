@@ -2,7 +2,7 @@ var Built = require('built-extension-sdk')
 
 // Initiate application
 var app = Built.App('bltb62a403faff09784')
-.setHost("dev-stag-api.built.io")
+.setHost("dev-api.built.io")
 .setProtocol("https")
 .setMasterKey('blta0f3474316380510')
 
