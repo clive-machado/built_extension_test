@@ -3,7 +3,7 @@ module.exports = {
 	// hello_world is the name of function in this code block
 	"/v1/functions/hello_world" : {
 		GET : function(req, res) {
-			req.logger.log("{
+			req.logger.log('{
     "name":"John",
     "age":30,
     "cars": {
@@ -11,7 +11,7 @@ module.exports = {
         "car2":"BMW",
         "car3":"Fiat"
     }
- }")
+ }')
 			req.logger.log("Calling function hello_world")
 			return this.resSuccess(req, res, "Hello World..!!")
 		}
